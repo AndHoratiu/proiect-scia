@@ -1,8 +1,8 @@
-Sistem de Prelucrare Semnale Analogice
-Descriere Generală
-Acest proiect vizează proiectarea, simularea și implementarea fizică a unui sistem electronic complex destinat condiționării semnalelor analogice. Sistemul este structurat în patru etaje funcționale realizate cu amplificatoare operaționale de precizie OP482
-Arhitectura Sistemului:
-Etaj 1: Amplificator Inversor cu Compensare DC – Oferă un câștig liniar de 7 și permite reglarea tensiunii de offset prin potențiometru.
-Etaj 2: Filtru Trece-Bandă Sallen-Key – Proiectat pentru o frecvență centrală de 1kHz, cu un factor de calitate $Q=0.707$.
-Etaj 3: Amplificator cu Câștig Programabil (PGA) – Permite ajustarea câștigului între -1dB și 8dB (rezoluție 3dB) prin comutatoare analogice.
-Etaj 4: Detector de Vârf Negativ – Redresor de precizie cu câștig unitar pentru extragerea valorii minime a semnalului.
+Analog Signal Processing System
+General Description:
+This project focuses on the design, simulation, and physical implementation of a complex electronic system intended for analog signal conditioning. The system is structured into four functional stages built using OP482 precision operational amplifiers.
+System Architecture:
+Stage 1: Inverting Amplifier with DC Compensation – Provides a linear gain of 7 and allows DC offset voltage adjustment via a potentiometer.
+Stage 2: Sallen-Key Band-Pass Filter – Designed for a center frequency of 1 kHz, with a quality factor Q.
+Stage 3: Programmable Gain Amplifier (PGA) – Allows gain adjustment between -1 dB and 8 dB (3 dB resolution) via analog switches.
+Stage 4: Negative Peak Detector – A precision rectifier configuration with a linear gain of 1 used to extract the minimum value of the signal.
